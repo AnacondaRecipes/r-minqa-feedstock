@@ -10,8 +10,8 @@ package:
 source:
   fn: minqa_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/minqa_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/minqa/minqa_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/minqa_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/minqa/minqa_{{ version }}.tar.gz
   sha256: cfa193a4a9c55cb08f3faf4ab09c11b70412523767f19894e4eafc6e94cccd0c
 
 
